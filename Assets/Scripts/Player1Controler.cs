@@ -20,7 +20,7 @@ public class Player1Controler : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-        if(Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
